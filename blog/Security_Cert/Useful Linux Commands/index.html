@@ -9,25 +9,23 @@
       
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../CIS_Overview/">
       
       
-        <link rel="next" href="../Security_Cert/CIS_Overview/">
       
-      
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
-        <title>First Post - Foresight2020</title>
+        <title>Useful Linux Commands - Foresight2020</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2afb09e1.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +44,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -71,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#ssh-and-web-related-commands" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -83,7 +86,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Foresight2020" class="md-header__button md-logo" aria-label="Foresight2020" data-md-component="logo">
+    <a href="../../.." title="Foresight2020" class="md-header__button md-logo" aria-label="Foresight2020" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -103,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              First Post
+              Useful Linux Commands
             
           </span>
         </div>
@@ -207,7 +210,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Foresight2020" class="md-nav__button md-logo" aria-label="Foresight2020" data-md-component="logo">
+    <a href="../../.." title="Foresight2020" class="md-nav__button md-logo" aria-label="Foresight2020" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -225,7 +228,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -284,17 +287,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../first-post/" class="md-nav__link">
         
   
   
@@ -305,7 +301,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -315,18 +310,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -342,7 +339,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Security plus Cert
@@ -356,7 +353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Security_Cert/CIS_Overview/" class="md-nav__link">
+      <a href="../CIS_Overview/" class="md-nav__link">
         
   
   
@@ -376,10 +373,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../Security_Cert/Useful%20Linux%20Commands/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Useful Linux Commands
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -390,6 +407,51 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ssh-and-web-related-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      SSH and web related commands:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#systemd-services-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Systemd Services Management:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-resourceslinux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux #resources/linux
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -428,6 +490,41 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ssh-and-web-related-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      SSH and web related commands:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#systemd-services-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Systemd Services Management:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-resourceslinux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linux #resources/linux
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -442,9 +539,90 @@
 
 
 
-  <h1>First Post</h1>
+<h3 id="ssh-and-web-related-commands">SSH and web related commands:</h3>
+<p>wget - command that transfers a file from the web via HTTP</p>
+<pre><code class="language-bash">wget https://assets.tryhackme.com/additional/linux-fundamentals/part3/myfile.txt
+</code></pre>
+<p>scp (secure copy) - used to transfer files from an ssh session </p>
+<pre><code class="language-bash">scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt
+</code></pre>
+<p>python3 -m http.server - provides an easy way to turn the host into a web server, allowing you to use wget to download the desired files from said host.  Note: you'll need to open another terminal window after executing the command</p>
+<pre><code class="language-bash">python3 -m http.server` 
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+</code></pre>
+<h3 id="systemd-services-management">Systemd Services Management:</h3>
+<p>The <code>systemctl</code> command is used to manage systemd units. You can use it to start, stop, restart, or check the status of a service.</p>
+<p>Start a service:</p>
+<pre><code class="language-bash">systemctl start &lt;service_name&gt;`
+</code></pre>
+<p>Stop a service: </p>
+<pre><code class="language-bash">systemctl stop &lt;service_name&gt;
+````
 
-<p>First Post</p>
+Restart a service: 
+```bash
+systemctl restart &lt;service_name&gt;
+````
+
+Check the status of a service: 
+```bash
+systemctl status &lt;service_name&gt;
+````
+
+### apt package manager is for debian based linux distros like Ubuntu and Kali:
+
+Add GPG key for when adding 3rd party apps not included in default repos:
+```bash
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add - 
+</code></pre>
+<p>Create a file for the new repository (e.g., <code>sublime-text.list</code> in <code>/etc/apt/sources.list.d</code>): </p>
+<pre><code class="language-bash">sudo nano /etc/apt/sources.list.d/sublime-text.list
+</code></pre>
+<p>Add repository information to the file: </p>
+<pre><code class="language-bash">deb https://download.sublimetext.com/ stable main
+</code></pre>
+<p>Update apt to recognize the new repository: </p>
+<pre><code class="language-bash">sudo apt update
+</code></pre>
+<p>Install a package (e.g., Sublime Text): </p>
+<pre><code class="language-bash">sudo apt install sublime-text
+</code></pre>
+<p>Install a .deb file with apt which will auto install any dependencies:</p>
+<pre><code class="language-bash">sudo apt install ./package_name.deb
+</code></pre>
+<p>you can install .deb files with <code>sudo dpkg -i example-package.deb</code> but if dependencies are not present, the program will not work or run with errors.</p>
+<p>Remove a package (e.g., Sublime Text): </p>
+<pre><code class="language-bash">sudo apt remove sublime-text
+````
+
+Alternatively, use the `add-apt-repository` command: 
+```bash
+sudo add-apt-repository --remove ppa:PPA_Name/ppa
+````
+
+### Process Management:
+
+ps - view processes running on the system. use ps aux to view processes ran by other users and the system:
+```bash
+ps
+ps aux
+</code></pre>
+<p>Forcefully terminate a process: </p>
+<pre><code class="language-bash">kill -9 &lt;process_id&gt;
+</code></pre>
+<p>Send a signal to a process: </p>
+<pre><code class="language-bash">kill &lt;process_id&gt;
+````
+
+Kill all processes running under a specific user: 
+```bash
+pkill -9 -u &lt;username&gt;`
+</code></pre>
+<p>Kill a process by its name: 
+```bash
+kill <process_name>
+````</p>
+<h1 id="linux-resourceslinux">Linux #resources/linux</h1>
 
 
 
@@ -493,10 +671,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>
