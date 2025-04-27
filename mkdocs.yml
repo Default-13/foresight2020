@@ -17,6 +17,6 @@ theme:
 nav:
   - Home: index.md
   - Blog:
-    - First Post: blog/first-post.md
     - Security plus Cert:
         - CIS Overview: blog/Security_Cert/CIS_Overview.md
+        - Useful Linux Commands: 'blog/Security_Cert/Useful Linux Commands.md'
