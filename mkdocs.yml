@@ -18,3 +18,5 @@ nav:
   - Home: index.md
   - Blog:
     - First Post: blog/first-post.md
+    - Security plus Cert:
+        - CIS Overview: blog/Security_Cert/CIS_Overview.md
