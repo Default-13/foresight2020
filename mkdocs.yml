@@ -20,3 +20,5 @@ nav:
     - Security plus Cert:
         - CIS Overview: blog/Security_Cert/CIS_Overview.md
         - Useful Linux Commands: 'blog/Security_Cert/Useful Linux Commands.md'
+        - Study Progress: blog/Security_Cert/Study_progress.md
+        - Foundational Concepts: 'blog/Security_Cert/Foundational Concepts.md'
